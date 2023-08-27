@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>projects | Manuel  Soriano Trigueros</title>
+    <title>Vectorization methods | Manuel  Soriano Trigueros</title>
     <meta name="author" content="Manuel  Soriano Trigueros" />
-    <meta name="description" content="Present and past reseach" />
+    <meta name="description" content="Transforming barcodes into valid inputs for statistics and machine learning" />
 
 
     <!-- Bootstrap & MDB -->
@@ -36,7 +36,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-    <link rel="canonical" href="http://localhost:4000/projects/">
+    <link rel="canonical" href="http://localhost:4000/projects/vect_project/">
 
     <!-- Dark Mode -->
     
@@ -82,8 +82,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -114,99 +114,115 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">projects</h1>
-            <p class="post-description">Present and past reseach</p>
+            <h1 class="post-title">Vectorization methods</h1>
+            <p class="post-description">Transforming barcodes into valid inputs for statistics and machine learning</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">work</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid"><!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/matching_project/">
-      <div class="card hoverable"><figure>
+            <p>Despite having such a variety of applications, the workflow used when working with
+persistent homology in TDA is rather homogeneous and can be summarized as follows:</p>
+<ol>
+  <li>We start with a data set, usually some finite metric space.</li>
+  <li>Then, a filtration is defined over such data set.</li>
+  <li>The persistent homology of the filtration is computed, to obtain a barcode.</li>
+  <li>Finally, barcodes are analyzed to extract the conclusions of our study.
+However, barcodes are not convinient for statistical tests and machine learning.</li>
+</ol>
+
+<p>In particular, they lack of some of the properties that vector spaces have, like having an unique mean [MMH-2011].
+For this reason, barcodes are usually send to a vector space (also denoted topological summaries) before performing such analisis.
+These vector representation can contain all the information from the original barcode, e.g. persistence landscapes, or just a part of it, e.g. Betti curves.
+The possible tradeoffs between the carried information, complexity, interpretability and interaction with the analysis methods lead to interesting research problems.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/matching_project-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/matching_project-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/matching_project-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/flow-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/flow-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/flow-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/matching_project.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/flow.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="TDA workflow" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Induced matching</h2>
-          <p class="card-text">Can information contained in a function of persistence modules be summarized in a matching?</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div><!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/vect_project/">
-      <div class="card hoverable"><figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/vect_project-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/vect_project-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/vect_project-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/vect_project.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Vectorization methods</h2>
-          <p class="card-text">Transforming barcodes into valid inputs for statistics and machine learning</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div><!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/fstructure_project/">
-      <div class="card hoverable"><figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/fstructure_project-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/fstructure_project-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/fstructure_project-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/fstructure_project.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">f-structures on manifolds</h2>
-          <p class="card-text">An study of this (1,1)-tensor structure as part of my master degree's final project</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    </div>
 </div>
-  </div></div>
+<div class="caption">
+    Illustration of the typical workflow when using persistent homology in TDA.
+</div>
+
+<h2 id="univariate-statistical-tests">Univariate statistical tests</h2>
+
+<p>Many times in science, and specially in biology or medicine, we only have a data set of limited size.
+When this happens, the most common data analysis methods do not apply, and we cannot even assume our values to follow a concrete statistical distribution.
+In such case, univariate non-paramteric statistical tests, like the Mann–Whitney U test, are a commonly used.
+In order to study barcodes using these tests, we need to summarize their information with just a number.</p>
+
+<h3 id="persistent-entropy">Persistent entropy</h3>
+<p>Persistent entropy is an example of a function that can be used to obtain a number from a barcode.
+It can be seen as the Shannon entropy of the lenght of the bars, and was first introduced in [CGGJK-2015] and [RCMP-2016].
+In the paper <a href="https://www.sciencedirect.com/science/article/pii/S0031320320303125">On the stability of persistent entropy and new summary functions for topological data analysis</a>, we studied its formal properties and proposed how to combine persistent entropy and the betti curve to create a new vectorization method,
+the entropy summary function.
+There exists implementations of persistent entropy in <a href="https://gudhi.inria.fr/python/latest/_modules/gudhi/representations/vector_methods.html#Entropy">gudhi</a> and <a href="https://persim.scikit-tda.org/en/latest/reference/stubs/persim.persistent_entropy.html">persim</a>.
+I made a <a href="https://github.com/GUDHI/TDA-tutorial/blob/master/Tuto-GUDHI-persistent-entropy.ipynbexplaining">tutorial for gudhi</a> about how to use persistent entropy in TDA.</p>
+
+<h3 id="application-to-epithelial-tissues">Application to epithelial tissues</h3>
+<p>We were also interested in studying if TDA could measure the differences between the geometrical and topological organization of planar epithelial tissues.
+The available data set was small, between 12 and 20 images per type of tissue so it seemed the right settings for using univariate statistical tests.
+For this studied, we considered numbers obtained from persistent entropy, evaluation of tropical polynomials and the norm of persistence landscapes. 
+We also used different filtrations based in the contact network of the cells and the relative positions of their centroids.
+The results were showed in our publication  <a href="https://www.mdpi.com/2227-7390/9/15/1723">Stable Topological Summaries for Analyzing the Organization of Cells in a Packed Tissue</a>.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/cell-filtration-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/cell-filtration-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/cell-filtration-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/cell-filtration.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="TDA workflow" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Example of filtration used to calculate persistent homology from an epithelial tissue.
+</div>
+
+<h2 id="tda-in-machine-learning">TDA in machine learning</h2>
+<p>There are different ways topological data analysis can contribute to machine learning tasks [ZKNHRP-2023].
+One of them, if to use TDA to quantify some geometrical/topological aspects of the data set and use the resulting vectors as inputs for machine learning algorithms.
+As we explained before, there are many possible vectorization methods.
+The aim of our research was to compare a big collection of them in classiffication tasks of different classical data sets.
+The results were very surprising, vectors formed by list of numbers obtained from simple methods like mean, variance or persistent entropy were performing better than more sofisticated methods.
+The whole analysis can be found in <a href="https://arxiv.org/abs/2212.09703">A Survey of Vectorization Methods in Topological Data Analysis</a></p>
+
+<h2 id="references">References</h2>
+
+<p>[MMH-2011]
+Y. Mileyko, S. Mukherjee, J. Harer. <em>Probability measures on the space of persistence diagrams</em>. Inverse Problems 12, nov 2011. DOI: 10.1088/0266-5611/27/12/124007</p>
+
+<p>[CGGJK-2015]
+H. Chintakunta, T. Gentimis, R. Gonzalez-Diaz, M.J. Jimenez, H. Krim. <em>An entropy-based persistence barcode</em>. Pattern Recognition 48-2, feb 2015. DOI: 10.1016/j.patcog.2014.06.023</p>
+
+<p>[BPCM-2016]
+M. Rucco, F. Castiglione, E. Merelli, M. Pettini. <em>Characterisation of the Idiotypic Immune Network Through Persistent Entropy</em>. Proceedings of ECCS 2014, Springer International Publishing. DOI: 10.1007/978-3-319-29228-1_11.</p>
+
+<p>[ZKNHRP-2023]
+A.Zia, A. Khamis, J. Nichols, Z. Hayder, V. Rolland, L. Petersson. <em>Topological Deep Learning: A Review of an Emerging Paradigm</em>. arXiv:2302.03836, aug 2023.</p>
 
           </article></div>
 
