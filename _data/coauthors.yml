@@ -1,34 +1,40 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Gonzalez-Diaz":
+  - firstname: ["Rocio", "R."]
+    url: https://personal.us.es/rogodi/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Jimenez":
+  - firstname: ["Maria-Jose", "M.J."]
+    url: https://scholar.google.com/citations?user=H7QbCmsAAAAJ&hl=en
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Atienza":
+  - firstname: ["Nieves", "N."]
+    url: https://scholar.google.pt/citations?user=D6YNqLoAAAAJ&hl=pl
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Torras-Casas":
+  - firstname: ["Álvaro", "A."]
+    url: https://alvaro-torras-casas.org/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Paluzo-Hidalgo":
+  - firstname: ["Eduardo", "E."]
+    url: https://personal.us.es/epaluzo/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Asaad":
+  - firstname: ["Aras", "A."]
+    url: https://scholar.google.com/citations?user=HYPTxFkAAAAJ&hl=en
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Ali":
+  - firstname: ["Dashti", "D."]
+    url: https://scholar.google.com/citations?user=80rf1SUAAAAJ&hl=en
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Nanda":
+  - firstname: ["Vidit", "V."]
+    url: http://people.maths.ox.ac.uk/nanda/index.html
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Fernández":
+  - firstname: ["Luis M.", "Luis. M."]
+    url: https://scholar.google.com/citations?user=VqqzBykAAAAJ
+
+"Alegre":
+  - firstname: ["Pablo", "P."]
+    url: https://investigacion.us.es/sisius/sis_showpub.php?idpers=13189
