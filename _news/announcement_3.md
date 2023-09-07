@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Assistance to the [BIREP summer school in persistence modules](https://www.math.uni-bielefeld.de/birep/activities/summer2023/)
+Attendance to the [BIREP summer school in persistence modules](https://www.math.uni-bielefeld.de/birep/activities/summer2023/)
