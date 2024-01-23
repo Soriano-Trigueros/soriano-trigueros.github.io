@@ -1,9 +1,8 @@
 ---
 layout: post
-#title: PhD finished
-date: 2023-07-01 12:00:00-0400
+date: 2023-07-31 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Arrival to ISTA as a postdoc
+Attendance to the [BIREP summer school in persistence modules](https://www.math.uni-bielefeld.de/birep/activities/summer2023/)
