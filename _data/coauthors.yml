@@ -38,3 +38,16 @@
 "Alegre":
   - firstname: ["Pablo", "P."]
     url: https://investigacion.us.es/sisius/sis_showpub.php?idpers=13189
+    
+"Edelsbrunner":
+  - firstname: ["Herbert", "H."]
+    url: https://pub.ista.ac.at/~edels/
+    
+"Mrozek":
+  - firstname: ["Marian", "M."]
+    url: https://ww2.ii.uj.edu.pl/~mrozek/
+    
+"Lipiński":
+  - firstname: ["Michał", "M."]
+    url: https://sites.google.com/view/michal-lipinski/home
+    
